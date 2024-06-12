@@ -1,0 +1,428 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Broń</title>
+	<meta name="description" content="dźganie,bicie i szarpanie i wszytsko co podobne" />
+	<meta name="keywords" content="broń" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link1').click(function() { $.scrollTo($('#budowacrt'), 500); });
+			$('#link2').click(function() { $.scrollTo($('#zasadacrt'), 500); });
+			$('#link3').click(function() { $.scrollTo($('#maskicrt'), 500); });
+			$('#link4').click(function() { $.scrollTo($('#wadyzaletycrt'), 500); });
+			$('#link5').click(function() { $.scrollTo($('#parametrycrt'), 500); });
+			$('#link6').click(function() { $.scrollTo($('#budowalcd'), 500); });
+			$('#link7').click(function() { $.scrollTo($('#zasadalcd'), 500); });
+			$('#link8').click(function() { $.scrollTo($('#matrycelcd'), 500); });
+			$('#link9').click(function() { $.scrollTo($('#wadyzaletylcd'), 500); });
+			$('#link10').click(function() { $.scrollTo($('#parametrylcd'), 500); });
+			$('#link11').click(function() { $.scrollTo($('#dsub'), 500); });
+			$('#link12').click(function() { $.scrollTo($('#dvi'), 500); });
+			$('#link13').click(function() { $.scrollTo($('#hdmi'), 500); });
+			$('#link14').click(function() { $.scrollTo($('#przyszlosc'), 500); });
+			$('#link15').click(function() { $.scrollTo($('#zrodla'), 500); });
+			
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+	
+	
+	</script>
+	
+</head>
+
+<body>
+	
+	<div id="logo">Miecze, maczugi itd.</div>
+	
+	<div id="container">
+	
+		<a href="#" class="scrollup"></a>
+	
+		<div id="spis">
+			
+			<ol>
+				<li>
+					Miecze
+					<ul>
+						<li><a id="link1" href="#">Miecze proste krótkie</a></li>
+						<li><a id="link2" href="#">Miecze proste długie</a></li>
+						<li><a id="link3" href="#">Miecze zakrzywione</a></li>
+						<li><a id="link4" href="#">Rapiery</a></li>
+						<li><a id="link5" href="#">Miecze egzotyczne</a></li>
+					</ul>
+				</li>
+				<li>
+					Obuchowe
+					<ul>
+						<li><a id="link6" href="#">Morgensztern</a></li>
+						<li><a id="link7" href="#">Buława</a></li>
+						<li><a id="link8" href="#">Pałka</a></li>
+						<li><a id="link9" href="#">Młoty</a></li>
+										
+					</ul>
+				</li>
+				<li>
+					Drzewcowe
+					<ul>
+						<li><a id="link10" href="#">Halabarda</a></li>		
+						<li><a id="link11" href="#">Pika</a></li>
+						<li><a id="link12" href="#">Włócznia</a></li>
+						<li><a id="link13" href="#">Kopia</a></li>
+					</ul>
+				</li>	
+				<li>
+					Wyróżnione
+					<ul>
+						<li><a id="link14" href="#">Bicz</a></li>
+					</ul>
+				</li>			
+				<li>
+					Bibliografia
+					<ul>
+						<li><a id="link15" href="#">Wykorzystane źródła</a></li>
+					</ul>
+				</li>	
+			</ol>
+			
+		</div>
+		
+
+		<!-- ######################## SLAJD 1.1 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="budowacrt">Miecze proste krótkie</h1>
+			
+			Miecze Proste krótkie to takie proste zwykłe bronie ostre które pokazują się w wielu różnych rozmiarach i wersjach. Jeżeli ma ostrze z dwóch stron, chwyt mieści się w dłoni i wygląda w miare prosto to jest to miecz krótki prosty.
+			<br /><br />
+			
+			<div style="float:left; width:480px; padding-left:20px;">
+				<img src="img/krotki.jpg" alt="crt" />
+			</div>
+			<div style="float:left; width:280px; text-align:left;padding-left:20px">
+								Atuty mieczy krótkich:<br>
+			- Różnorodne<br>
+			- zwinne<br>
+			- wysoki górny próg umiejętności<br>
+			- praktyczne poza bitwą<br>
+			</div>
+			<div style="clear:both;"></div>
+
+		</div>
+		
+		<!-- ######################## SLAJD 1.2 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="zasadacrt">Miecze proste długie</h1>
+		Miecze proste długie to bardziej złożone, większe i często efektywniejsze wersje mieczy krótkich. Miecze długie to są takie ostrza które wymagają do efektywnego władania nie jednej, a dwóch rąk. Są one również z reguły cięższe od mieczy krótkichi często przekraczają wagę 5kg.
+			<br /><br />
+		
+			
+			<div style="float:left; width:480px; padding-left:20px;">
+				<img src="img/zwei.jpg" alt="miecvz" />
+			</div>
+				Atuty mieczy długich:<br>
+			- Silne<br>
+			- większa efektywność technik przeciw pancerzom<br>
+			- przerażające<br>
+			- wygladaja fantastycznie<br>
+			<div style="clear:both;"></div>
+			
+		</div>
+		
+		<!-- ######################## SLAJD 1.3 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="maskicrt">Miecze zakrzywione</h1>
+			
+			Do mieczy zakrzywionych należą z reguły jednostronne ostrza posiadające zakrzywienie w celu polepszenia efektywności cięcia.Istnieje wiele rodzajów mieczy zakrzywionych, lecz moim ulubionym są szable. 
+		<br /><br />
+			
+			<div style="float:left; width:480px;height:480px; padding-left:20px;">
+				<img src="img/szabla.jpg" alt="miecvz" />
+			</div>
+				Atuty mieczy zakrzywionych:<br>
+			- bardzo dobre cięcie<br>
+			- stylowe<br>
+			- symbol statusu<br>
+			- można otworzyć szampana<br>
+			<div style="clear:both;"></div>
+			
+		</div>
+			
+		<!-- ######################## SLAJD 1.4 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="wadyzaletycrt">Rapiery</h1>
+			
+			Rapiery to są bardzo cienkie i wydłużone dwustronne miecze z obszerną osłoną dłoni bardziej przeznaczone do wykonywania pchnięć, lecz nadal zdolne i wydajne w cięciu.Ich lekkość, zasięg i mniemanja elegancja sprawiła że zostały one najczęstszym powodem śmierci europejskiej arystokracji w niektórych czasach 18 i 19 wieku, dopóki pojedynki nimi nie zostały zakazane.
+		<br /><br />
+			
+			<div style="float:left; width:480px;height:480px; padding-left:20px;">
+				<img src="img/rapier.jpg" alt="miecvz" />
+			</div>
+				Atuty rapierów:<br>
+			- precyzja<br>
+			- zasięg<br>
+			- symbol statusu<br>
+			- eleganckie<br>
+			- niesamowita efektywność w pojedynkach<br>
+			<div style="clear:both;"></div>
+
+		</div>
+		
+		<!-- ######################## SLAJD 1.5 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="parametrycrt">Miecze egzotyczne</h1>
+			
+			Istnieje mnóstwo różnych mieczy egzotycznych i każde rządzą się własnymi zasadami i mają swoje własne atuty i zalety. Pokazany na zdjęciu khopesh jest typem miecza używanym w czasach staróżytnego egiptu. W działaniu przypominały one topory, i cięły one z podobną efektywnością, lecz łatwo łamały się i wyginały przy próbach dźgania.
+		<br /><br />
+			
+			<div style="float:left; width:480px;height:480px; padding-left:10px;">
+				<img src="img/khopesh.jpg" alt="miecvz" />
+			</div>
+				Rodzaje mieczy egzotycznych:<br>
+			- khopesh<br>
+			- katana<br>
+			- flamberge<br>
+			- cinquedea<br>
+			- i wiele innych<br>
+			<div style="clear:both;"></div>
+
+		</div>
+		
+		<!-- ######################## SLAJD 2.1 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="budowalcd">Morgensztern</h1>
+			
+		Morgensztern jest jednoręczną maczugą obdarzoną licznymi kolcami przymocowanymi wokół jej metalowej głowicy. Jest bardzo wydajną bronią obuchową, nawet przeciwko ciężko uzbrojonym wrogom, co sparwiło że kiedy pojawił się on na polach walki w późnym średniowieczu, dotychczasowy wyścig zbrojeń na płaszczyźnie pancerza został gwałtownie zachamowany. Nazwa "Morgensztern" pochodzi z niemieckiego słowa oznaczającego "poranna gwiazda" osnoszace się do wyglądu broni.	
+		<br /><br />
+			
+			<div style="float:left; width:480px;height:480px; padding-left:10px;">
+				<img src="img/morgensztern.jpg" alt="maczuga" />
+			</div>
+				Atuty morgenszternów:<br>
+			- penetracja pancerza<br>
+			- obrażenia niezależnie od ochrony<br>
+			- łatwość użytkowania<br>
+			<div style="clear:both;"></div>
+
+		</div>
+		
+		<!-- ######################## SLAJD 2.2 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="zasadalcd">Buława</h1>
+			
+		
+			
+		Buławy są starożytnym typem broni, używanym od tysiącleci. Są bardzo proste w obsłudze i budowie, i z tego powodu bardzo często używane przez antyczne i średniowieczne armie. Bogato zdobione Kuliste buławy miały dodatkowe znaczenie jako symbol władzy i autorytetu, np. buławy królewskie lub buławy hetmańskie w rzeczypospolitej obojga narodów
+		<br /><br />
+			
+			<div style="float:left; width:480px;padding-left:10px;">
+				<img src="img/bulawa.jpg" alt="maczuga" />
+			</div>
+				Atuty Buław:<br>
+			- prosta budowa<br>
+			- wielofunkcyjność<br>
+			- obrażenia przez zbroję<br>
+			- znaczenie symboliczne <br>
+			<div style="clear:both;"></div>
+
+		</div>
+		
+		<!-- ######################## SLAJD 2.3 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="matrycelcd">Pałki</h1>
+			
+			Pałki sa prawdopodobnie drugą najstarszą bronią w historii ludzkości, tuż za trzymanymi w dłoniach kamieniami. w zxależności od rozmiaru i trwałości broni, efektywność pałki różni się znacznie z egzeplarza do egzemplarza, lecz podłużny kij wykonany z drewna jest bardzo dobrą opcją w wielu sytuacjach w i poza bitwą.
+		<br /><br />
+			
+			<div style="float:left; width:480px;padding-left:10px;">
+				<img src="img/quarter.jpg" alt="pala" />
+			</div>
+				Atuty Pałek:<br>
+			- najprostsza możliwa budowa<br>
+			- możliwość dostosowania do potrzeb<br>
+			- niskie wymagania umiejętnościowe i wysoki sufit umiejętności<br>
+			- praktyczne poza walką <br>
+			<div style="clear:both;"></div>
+			
+		</div>
+		
+		<!-- ######################## SLAJD 2.4 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="wadyzaletylcd">Młoty</h1>
+			
+			Młoty występowały w 3 głównych rozmiarach: Krótkim jednoręcznym, dwuręcznym, i pośrednim półtoraręcznym. Głowice młotów różniły się często zakończeniami; mogły być płaskie, okrągłe, wielokoątne, ostre - nazywane nadziakami, hakowate lub toporowe, a niektóre młoty łączyły w sobie 2 różne zakończenia - tak jak ten przedstawiony na zdjęciu,.
+		<br /><br />
+			
+			<div style="float:left; width:480px;padding-left:10px;">
+				<img src="img/wammer.jpg" alt="mlot" />
+			</div>
+				Atuty Młotów:<br>
+			- łatwość użycia<br>
+			- możliwość dostosowania do potrzeb<br>
+			- duża siła uderzenia<br>
+			- penetracja pancerza w przypadku nadziaków <br>
+			<div style="clear:both;"></div>
+			
+		</div>
+		
+		<!-- ######################## SLAJD 2.5 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="parametrylcd">Halabarda</h1>
+			
+			Halabardy są jednymi z najbardziej popularnych broni średniowiecza. Składają się z podłużnego drzewca często sięgającego nawet 2 metry lub więcej i głowicy tradycyjnie złożonej z haka z tyłu, topora z przodu i włóczni na czubie. Halabardy BYły powszechnie używane prze gwardie miast w całej europie ze względu na swoje unikalne charakterystyki i możliwość wykorzystania ich w celu kontroli pożarów.
+		<br /><br />
+			
+			<div style="float:left; width:480px;padding-left:10px;">
+				<img src="img/halberd.jpg" alt="halbarda" />
+			</div>
+				Atuty halabard:<br>
+			- użyteczność poza bitwą<br>
+			- możliwość dostosowania do potrzeb<br>
+			- najlepszy wybór na broń dla gwardii miejskiej<br>
+			- duży zasięg <br>
+			<div style="clear:both;"></div>	
+
+		</div>		
+		
+		<!-- ######################## SLAJD 3.1 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="dsub">Pika</h1>
+			
+			Piki to bronie drzewcowe uzywane głównie w epoce noworzytnej w celu obrony przed kawalerią i fortyfikowania pozycji i taborów. Pika jest zbudowana z ostrej głowicy umieszczonej na bardzo długim kiju osiągającym często ponad 5m długości. U shyłku 17 wieku oddziały zbudowane z muszkieterów wspomaganych pikinierami były dominującym sposobem prowadzenia bitew aż do wystarczającego rozwoju broni palnej około połowy 18 wieku. 
+		<br /><br />
+			
+			<div style="float:left; width:480px;padding-left:10px;">
+				<img src="img/pike.png" alt="halbarda" />
+			</div>
+				Atuty pik:<br>
+			- bardzo efektywne przeciw kawalerii<br>
+			- wysmienite narzędzie defensywne<br>
+			- najlepszy zasięg wśród broni białej<br>
+			- mały koszt produkcji <br>
+			<div style="clear:both;"></div>		
+
+
+		</div>
+		
+		<!-- ######################## SLAJD 3.2 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="dvi">Włócznie</h1>
+			
+		Włócznie można zdefiniować jako podłużny drzewiec z naostrzonym punktem na jednej ze stron. W takiej formie włócznie były używane od najwcześniejszych łowców w prehistorii i utrzymały swoją dominację jako czołowa broń ludzkości aż do późnego antyku.
+		<br /><br />
+			
+			<div style="float:left; width:480px;padding-left:10px;">
+				<img src="img/spear.png" alt="halbarda" />
+			</div>
+				Atuty włóczni:<br>
+			- dobra obrona <br>
+			- najlepszy wybór czasów antycznych<br>
+			- bardzo dobry zasięg<br>
+			- bardzo prosta budowa i obsługa<br>
+			<div style="clear:both;"></div>		
+
+		</div>
+
+		<!-- ######################## SLAJD 3.3 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="hdmi">Kopia</h1>
+			
+				
+			Kopia jest jednoręczną bronią konną bardzo często jednorazową używaną tylko do pierwszej szarży w bitwie i odrzucaną na bok po szarży. Kopie były wśród podstawowego uzbrojenia wielu jednostek jazdy cięzkiej i służyła do przełamania się przez wstępne linie obrony używając jej ogromnego zasięgu (nawet 4 do 5 metrów) i impetu szarzy całego kawalerzysty.
+		<br /><br />
+			
+			<div style="float:left; width:480px;padding-left:10px;">
+				<img src="img/kopia.jpg" alt="halbarda" />
+			</div>
+				Atuty kopii:<br>
+			- przebijanie formacji obronnych<br>
+			- pozwala na przeprowadzenie wtórnych szarż<br>
+			- bardzo dobry zasięg<br>
+			<div style="clear:both;"></div>		
+
+		</div>
+
+		<!-- ######################## SLAJD 4.1 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="przyszlosc">Bicz</h1>
+			Pomimo swojej niepozornej budowy, bicz jest bardzo dobrą bronią w odpowiednich rękach. Biegły użytkownik bicza jest w stanie obezwładnić lub dotkliwie zranić przeciwnika, lecz jest on prawie bezużyteczny przeciwko opancerzonym wrogom.
+		<br /><br />
+			
+			<div style="float:left; width:480px;padding-left:10px;">
+				<img src="img/bicz.jpg" alt="halbarda" />
+			</div>
+				Atuty bicza:<br>
+			- stylowy<br>
+			- kompaktowo przechowywane<br>
+			-wszechstronne zastosowania<br>
+			<div style="clear:both;"></div>		
+
+		</div>
+		
+		<!-- ######################## SLAJD 4.2 ######################## -->
+		
+		<div class="slajd">
+		
+			<h1 id="zrodla">Wykorzystane źródła</h1>
+			
+			<ul>
+				<li>moja głowa</li>
+				
+			</ul>
+		</div>	
+		
+	</div>
+	
+	<div id="stopka">Strona sponsorowana przez sieć sklepów żabka</div>
+
+</body>
+</html>
